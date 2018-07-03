@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryDark">#0161fc</color>
     <color name="colorPrimary">#808080</color>
-    <color name="colorAccent">#003dd4</color>
-    <color name="startButtonColor">#2f59ff</color>
+    <color name="colorAccent">#003bca</color>
+    <color name="colorQuestions">#001445</color>
+    <color name="startButtonColor">#2f6aff</color>
     <color name="wrongAnswerColor">#f70202</color>
     <color name="toastcolors">#ffffff</color>
 </resources>

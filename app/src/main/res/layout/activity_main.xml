@@ -42,6 +42,7 @@
                     android:id="@+id/welcomeTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
                     android:gravity="center_horizontal"
                     android:text="@string/welcome_slogan"
                     android:textSize="@dimen/size_of_welcome_text" />
@@ -49,8 +50,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/vertical_margin"
-                    android:layout_marginTop="@dimen/vertical_margin"
+                    android:layout_marginBottom="@dimen/fifteendp"
+                    android:layout_marginTop="@dimen/fifteendp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -58,7 +59,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="@dimen/vertical_margin"
+                        android:layout_marginTop="@dimen/fifteendp"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -73,6 +74,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:textColor="@android:color/black"
                             android:layout_marginHorizontal="@dimen/twentydp"
                             android:text="Udacity Quiz Project"
                             android:textStyle="bold" />
@@ -84,53 +86,103 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/divider_width"
-                    android:layout_marginTop="@dimen/vertical_margin"
+                    android:layout_marginTop="@dimen/fifteendp"
                     android:background="@android:color/darker_gray">
-
                 </View>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/StyleForDescriptionTextViews"
+                        android:layout_width="@dimen/seventydp"
+                        android:layout_height="@dimen/seventydp"
+                        android:padding="@dimen/tendp"
+                        android:src="@drawable/android_logo" />
 
                     <TextView
                         style="@style/StyleForDescriptionTextViews"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
                         android:padding="@dimen/tendp"
-                        android:drawableLeft="@drawable/binary_numbers_128"
                         android:text="@string/answer_10_questions" />
 
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/StyleForDescriptionTextViews"
+                        android:layout_width="@dimen/seventydp"
+                        android:layout_height="@dimen/seventydp"
+                        android:padding="@dimen/tendp"
+                        android:src="@drawable/list" />
+
                     <TextView
                         style="@style/StyleForDescriptionTextViews"
                         android:layout_width="match_parent"
+                        android:textColor="@android:color/black"
                         android:layout_height="wrap_content"
                         android:padding="@dimen/tendp"
-                        android:drawableLeft="@drawable/list"
-                        android:text="@string/the_quiz_contains" />
+                        android:text="@string/the_quiz_contains"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/StyleForDescriptionTextViews"
+                        android:layout_width="@dimen/seventydp"
+                        android:layout_height="@dimen/seventydp"
+                        android:padding="@dimen/tendp"
+                        android:src="@drawable/trophy" />
 
                     <TextView
                         style="@style/StyleForDescriptionTextViews"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:drawableLeft="@drawable/trophy_64"
+                        android:textColor="@android:color/black"
+                        android:padding="@dimen/tendp"
                         android:text="@string/the_result_you_will_post" />
 
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/StyleForDescriptionTextViews"
+                        android:layout_width="@dimen/seventydp"
+                        android:layout_height="@dimen/seventydp"
+                        android:padding="@dimen/tendp"
+                        android:src="@drawable/flag" />
+
                     <TextView
                         style="@style/StyleForDescriptionTextViews"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
                         android:padding="@dimen/tendp"
-                        android:drawableLeft="@drawable/flag_64"
                         android:text="@string/before_start" />
+
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/divider_width"
-                    android:layout_marginTop="@dimen/vertical_margin"
+                    android:layout_marginTop="@dimen/fifteendp"
                     android:background="@android:color/darker_gray">
 
                 </View>
@@ -138,8 +190,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/vertical_margin"
+                    android:layout_marginTop="@dimen/tendp"
                     android:text="@string/enter_your_name"
+                    android:textColor="@android:color/black"
                     android:textSize="@dimen/twentysp"
                     android:textStyle="bold" />
 
@@ -147,7 +200,7 @@
                     android:id="@+id/nameEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/vertical_margin"
+                    android:layout_marginTop="@dimen/tendp"
                     android:hint="@string/hint_name"
                     android:inputType="textCapWords" />
 
@@ -157,10 +210,9 @@
         <Button
             android:id="@+id/startButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/fiftydp"
            android:layout_marginBottom="@dimen/tendp"
             android:layout_marginHorizontal="@dimen/twentydp"
-
             android:layout_below="@id/main_page"
             android:backgroundTint="@color/startButtonColor"
             android:text="@string/start_button_txt"

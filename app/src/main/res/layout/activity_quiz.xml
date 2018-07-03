@@ -23,6 +23,7 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorQuestions"
                 android:text="@string/question_1" />
 
             <RadioGroup
@@ -60,6 +61,7 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorQuestions"
                 android:text="@string/question_2" />
 
             <CheckBox
@@ -92,6 +94,7 @@
             <TextView
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
+                android:textColor="@color/colorQuestions"
                 android:layout_height="wrap_content"
                 android:text="@string/question_3" />
 
@@ -107,6 +110,7 @@
             <TextView
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
+                android:textColor="@color/colorQuestions"
                 android:layout_height="wrap_content"
                 android:text="@string/question_4" />
 
@@ -140,6 +144,7 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorQuestions"
                 android:text="@string/question_5" />
 
             <RadioGroup
@@ -177,6 +182,7 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorQuestions"
                 android:text="@string/question_6" />
 
             <RadioGroup
@@ -214,6 +220,7 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorQuestions"
                 android:text="@string/question_7" />
 
             <CheckBox
@@ -247,6 +254,7 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorQuestions"
                 android:text="@string/question_8" />
 
             <EditText
@@ -261,6 +269,7 @@
             <TextView
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
+                android:textColor="@color/colorQuestions"
                 android:layout_height="wrap_content"
                 android:text="@string/question_9" />
 
@@ -293,6 +302,7 @@
             <TextView
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
+                android:textColor="@color/colorQuestions"
                 android:layout_height="wrap_content"
                 android:text="@string/question_10" />
 
@@ -331,7 +341,7 @@
         <Button
             android:id="@+id/submitButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/fiftydp"
             android:layout_below="@id/questions"
             android:backgroundTint="@color/startButtonColor"
             android:layout_marginHorizontal="@dimen/twentydp"
