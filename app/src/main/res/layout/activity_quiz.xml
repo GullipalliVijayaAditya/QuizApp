@@ -23,8 +23,8 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorQuestions"
-                android:text="@string/question_1" />
+                android:text="@string/question_1"
+                android:textColor="@color/colorQuestions" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -61,8 +61,8 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorQuestions"
-                android:text="@string/question_2" />
+                android:text="@string/question_2"
+                android:textColor="@color/colorQuestions" />
 
             <CheckBox
                 android:id="@+id/q2_checkbox_1"
@@ -94,9 +94,9 @@
             <TextView
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
-                android:textColor="@color/colorQuestions"
                 android:layout_height="wrap_content"
-                android:text="@string/question_3" />
+                android:text="@string/question_3"
+                android:textColor="@color/colorQuestions" />
 
             <EditText
                 android:id="@+id/q3_editTextField"
@@ -110,9 +110,9 @@
             <TextView
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
-                android:textColor="@color/colorQuestions"
                 android:layout_height="wrap_content"
-                android:text="@string/question_4" />
+                android:text="@string/question_4"
+                android:textColor="@color/colorQuestions" />
 
             <CheckBox
                 android:id="@+id/q4_checkbox_1"
@@ -144,8 +144,8 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorQuestions"
-                android:text="@string/question_5" />
+                android:text="@string/question_5"
+                android:textColor="@color/colorQuestions" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -182,8 +182,8 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorQuestions"
-                android:text="@string/question_6" />
+                android:text="@string/question_6"
+                android:textColor="@color/colorQuestions" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -220,8 +220,8 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorQuestions"
-                android:text="@string/question_7" />
+                android:text="@string/question_7"
+                android:textColor="@color/colorQuestions" />
 
             <CheckBox
                 android:id="@+id/q7_checkbox_1"
@@ -254,8 +254,8 @@
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorQuestions"
-                android:text="@string/question_8" />
+                android:text="@string/question_8"
+                android:textColor="@color/colorQuestions" />
 
             <EditText
                 android:id="@+id/q8_editTextField"
@@ -269,9 +269,9 @@
             <TextView
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
-                android:textColor="@color/colorQuestions"
                 android:layout_height="wrap_content"
-                android:text="@string/question_9" />
+                android:text="@string/question_9"
+                android:textColor="@color/colorQuestions" />
 
             <CheckBox
                 android:id="@+id/q9_checkbox_1"
@@ -302,9 +302,9 @@
             <TextView
                 style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
-                android:textColor="@color/colorQuestions"
                 android:layout_height="wrap_content"
-                android:text="@string/question_10" />
+                android:text="@string/question_10"
+                android:textColor="@color/colorQuestions" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -343,11 +343,11 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/fiftydp"
             android:layout_below="@id/questions"
-            android:backgroundTint="@color/startButtonColor"
             android:layout_marginHorizontal="@dimen/twentydp"
-            android:textSize="@dimen/fifteensp"
+            android:backgroundTint="@color/startButtonColor"
             android:text="@string/check_answers"
             android:textColor="@android:color/white"
+            android:textSize="@dimen/fifteensp"
             android:textStyle="bold" />
 
     </RelativeLayout>

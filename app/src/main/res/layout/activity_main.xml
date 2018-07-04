@@ -12,9 +12,9 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
+            android:id="@+id/main_page"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/main_page"
 
             android:orientation="vertical">
 
@@ -42,9 +42,9 @@
                     android:id="@+id/welcomeTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@android:color/black"
                     android:gravity="center_horizontal"
                     android:text="@string/welcome_slogan"
+                    android:textColor="@android:color/black"
                     android:textSize="@dimen/size_of_welcome_text" />
 
                 <LinearLayout
@@ -74,9 +74,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:textColor="@android:color/black"
                             android:layout_marginHorizontal="@dimen/twentydp"
                             android:text="@string/udacity_quiz_project"
+                            android:textColor="@android:color/black"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -87,8 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/divider_width"
                     android:layout_marginTop="@dimen/fifteendp"
-                    android:background="@android:color/darker_gray">
-                </View>
+                    android:background="@android:color/darker_gray"></View>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -106,12 +105,13 @@
                         style="@style/StyleForDescriptionTextViews"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@android:color/black"
                         android:padding="@dimen/tendp"
-                        android:text="@string/answer_10_questions" />
+                        android:text="@string/answer_10_questions"
+                        android:textColor="@android:color/black" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -127,13 +127,14 @@
                     <TextView
                         style="@style/StyleForDescriptionTextViews"
                         android:layout_width="match_parent"
-                        android:textColor="@android:color/black"
                         android:layout_height="wrap_content"
                         android:padding="@dimen/tendp"
-                        android:text="@string/the_quiz_contains"/>
+                        android:text="@string/the_quiz_contains"
+                        android:textColor="@android:color/black" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -150,12 +151,13 @@
                         style="@style/StyleForDescriptionTextViews"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@android:color/black"
                         android:padding="@dimen/tendp"
-                        android:text="@string/the_result_you_will_post" />
+                        android:text="@string/the_result_you_will_post"
+                        android:textColor="@android:color/black" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -172,9 +174,9 @@
                         style="@style/StyleForDescriptionTextViews"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@android:color/black"
                         android:padding="@dimen/tendp"
-                        android:text="@string/before_start" />
+                        android:text="@string/before_start"
+                        android:textColor="@android:color/black" />
 
 
                 </LinearLayout>
@@ -211,9 +213,9 @@
             android:id="@+id/startButton"
             android:layout_width="match_parent"
             android:layout_height="@dimen/fiftydp"
-           android:layout_marginBottom="@dimen/tendp"
-            android:layout_marginHorizontal="@dimen/twentydp"
             android:layout_below="@id/main_page"
+            android:layout_marginBottom="@dimen/tendp"
+            android:layout_marginHorizontal="@dimen/twentydp"
             android:backgroundTint="@color/startButtonColor"
             android:text="@string/start_button_txt"
             android:textColor="@android:color/white"

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/toast_layout_root_one"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toast_layout_root_one"
     android:layout_width="@dimen/hundereddp"
     android:layout_height="@dimen/hundereddp"
-    tools:ignore="ContentDescription"
     android:background="@drawable/rounded_rectangle"
     android:elevation="@dimen/twentydp"
     android:orientation="horizontal"
-    android:padding="@dimen/fifteendp">
+    android:padding="@dimen/fifteendp"
+    tools:ignore="ContentDescription">
 
     <ImageView
         android:id="@+id/custom_toast_image_one"
         android:layout_width="@dimen/fiftydp"
-        android:layout_gravity="center"
         android:layout_height="@dimen/fiftydp"
+        android:layout_gravity="center"
         android:layout_marginHorizontal="@dimen/tendp" />
 
     <TextView

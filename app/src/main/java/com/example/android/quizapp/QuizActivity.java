@@ -258,8 +258,7 @@ public class QuizActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        new AlertDialog.Builder(this).setIcon(R.drawable.warning).setTitle("Exit Quiz")
-                .setMessage("You will loose all the Answers. Did you want to exit?").setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        new AlertDialog.Builder(this).setIcon(R.drawable.warning).setTitle("Exit Quiz").setMessage("You will loose all the Answers. Did you want to exit?").setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 
             @Override
             public void onClick(DialogInterface dialog, int which) {
