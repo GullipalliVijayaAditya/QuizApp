@@ -178,8 +178,7 @@ public class QuizActivity extends AppCompatActivity {
         CheckBox correctAnswer2 = (CheckBox) findViewById(R.id.q7_checkbox_3);
         correctAnswer1.setTextColor(Color.parseColor("green"));
         correctAnswer2.setTextColor(Color.parseColor("green"));
-        return (!((CheckBox) findViewById(R.id.q7_checkbox_2)).isChecked() && correctAnswer2.isChecked() && !((CheckBox) findViewById(R.id.q7_checkbox_3)).isChecked() && correctAnswer1.isChecked());
-    }
+        return (!((CheckBox) findViewById(R.id.q7_checkbox_1)).isChecked() && ((CheckBox) findViewById(R.id.q7_checkbox_2)).isChecked() && ((CheckBox) findViewById(R.id.q7_checkbox_3)).isChecked() && !((CheckBox) findViewById(R.id.q7_checkbox_4)).isChecked());   }
 
     /**
      * Checks if answer is correct, highlight correct answer
@@ -208,8 +207,7 @@ public class QuizActivity extends AppCompatActivity {
         CheckBox correctAnswer2 = (CheckBox) findViewById(R.id.q9_checkbox_3);
         correctAnswer1.setTextColor(Color.parseColor("green"));
         correctAnswer2.setTextColor(Color.parseColor("green"));
-        return (!((CheckBox) findViewById(R.id.q9_checkbox_1)).isChecked() && correctAnswer2.isChecked() && !((CheckBox) findViewById(R.id.q9_checkbox_3)).isChecked() && correctAnswer1.isChecked());
-    }
+        return (((CheckBox) findViewById(R.id.q9_checkbox_1)).isChecked() && !((CheckBox) findViewById(R.id.q9_checkbox_2)).isChecked() && ((CheckBox) findViewById(R.id.q9_checkbox_3)).isChecked() && !((CheckBox) findViewById(R.id.q9_checkbox_4)).isChecked());    }
 
     /**
      * Checks if answer is correct, highlight correct answer
@@ -246,7 +244,7 @@ public class QuizActivity extends AppCompatActivity {
         ImageView image = (ImageView) layout.findViewById(R.id.custom_toast_image_two);
         image.setImageResource(R.drawable.logoquiz);
         TextView text = (TextView) layout.findViewById(R.id.custom_toast_message_two);
-        text.setText("Hii " + userNameForDisplaying + ", you got " + amountOfCorrectAnswers + "/10! " + specialMessage);
+        text.setText("Hii " + userNameForDisplaying + ", you got " + amountOfCorrectAnswers + "/10!" + specialMessage);
 
         Toast toast = new Toast(getApplicationContext());
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
