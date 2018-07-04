@@ -53,4 +53,5 @@
     <string name="suspend">suspend()</string>
     <string name="return_from_run_on_boolean_flag_false">return from run() on boolean flag=false</string>
     <string name="check_answers">Check Answers</string>
+    <string name="udacity_quiz_project">Udacity Quiz Projects</string>Udacity Quiz Project
 </resources>

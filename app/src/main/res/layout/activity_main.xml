@@ -76,7 +76,7 @@
                             android:layout_gravity="center"
                             android:textColor="@android:color/black"
                             android:layout_marginHorizontal="@dimen/twentydp"
-                            android:text="Udacity Quiz Project"
+                            android:text="@string/udacity_quiz_project"
                             android:textStyle="bold" />
 
                     </LinearLayout>

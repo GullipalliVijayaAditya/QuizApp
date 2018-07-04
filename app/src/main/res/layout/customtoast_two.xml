@@ -2,8 +2,11 @@
     android:id="@+id/toast_layout_root_two"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
     android:elevation="@dimen/twentydp"
     android:background="@drawable/rounded_rectangle"
+
     android:orientation="horizontal"
     android:padding="@dimen/fifteendp">
 
